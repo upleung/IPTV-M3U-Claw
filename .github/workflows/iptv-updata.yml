@@ -1,0 +1,38 @@
+name: IPTV Auto Update Python
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 00:00 自动运行
+  workflow_dispatch:       # 手动运行按钮
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        cache: 'pip'
+        cache-dependency-path: 'revise/requirements.txt'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r revise/requirements.txt
+
+    - name: Run IPTV Python Script
+      run: |
+        python scripts/streamlink_auto_match.py
+
+    - name: Commit & Push
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add Favorite.m3u IPTV.m3u
+        git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
+        git push
