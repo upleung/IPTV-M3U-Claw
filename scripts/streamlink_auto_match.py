@@ -203,8 +203,8 @@ async def main():
         f.write(f'#EXTM3U x-tvg-url="{EPG_URL}"\n')
         
         for fav in FAVORITES_CONFIG:
-            # 从所有有效的验证池中寻找匹配项，并优先挑选速度最快的（因为 valid_channels 是包含所有有效线路的，新增繁简体筛选）
-            candidates = [ch for ch in valid_channels if re.search(fav['match'], ch['name'], re.IGNORECASE)]
+            # 从所有有效的验证池中寻找匹配项，并优先挑选速度最快的（因为 valid_channels 是包含所有有效线路的）
+            candidates = [ch for ch in valid_channels if fav['match'].lower() in ch['name'].lower()]
             
             if candidates:
                 # 按延迟从小到大排序，取最快的一个
