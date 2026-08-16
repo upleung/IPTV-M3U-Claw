@@ -1,123 +1,125 @@
-# -------- 港澳台 --------
-    {"group": "港澳台", "name": "翡翠台4K", "match": "翡翠台4K"}
-    {"group": "港澳台", "name": "翡翠台", "match": "翡翠台"}
-    {"group": "港澳台", "name": "翡翠台(字幕)", "match": "翡翠台(字幕)"}
-    {"group": "港澳台", "name": "明珠台", "match": "明珠台"}
-    {"group": "港澳台", "name": "TVB Plus", "match": "TVB Plus"}
-    {"group": "港澳台", "name": "TVB剧集台", "match": "翡翠剧集台|翡翠劇集台|TVB劇集台"}
-    {"group": "港澳台", "name": "TVB亚洲武侠", "match": "亚洲武侠|亞洲武俠"}
-    {"group": "港澳台", "name": "TVB娱乐新闻台", "match": "娱乐新闻台|娛樂新聞台"}
-    {"group": "港澳台", "name": "无线新闻台", "match": "无线新闻|無綫新聞|无线新闻台|無綫新聞台"}
-    {"group": "港澳台", "name": "ViuTV", "match": "ViuTV"}
-    {"group": "港澳台", "name": "Now新闻台", "match": "Now新闻台|Now新聞台"}
-    {"group": "港澳台", "name": "凤凰中文", "match": "凤凰中文|鳳凰中文"}
-    {"group": "港澳台", "name": "凤凰资讯", "match": "凤凰资讯|鳳凰資訊"}
-    {"group": "港澳台", "name": "澳视澳门", "match": "澳视澳门|澳視澳門"}
-    {"group": "港澳台", "name": "澳门体育", "match": "澳视体育|澳視體育|澳门体育|澳門體育"}
+FAVORITES_CONFIG = [
+    # -------- 港澳台 --------
+    {"group": "港澳台", "name": "翡翠台4K", "match": "翡翠台4K"},
+    {"group": "港澳台", "name": "翡翠台", "match": "翡翠台"},
+    {"group": "港澳台", "name": "翡翠台(字幕)", "match": "翡翠台(字幕)"},
+    {"group": "港澳台", "name": "明珠台", "match": "明珠台"},
+    {"group": "港澳台", "name": "TVB Plus", "match": "TVB Plus"},
+    {"group": "港澳台", "name": "TVB剧集台", "match": "翡翠剧集台"},
+    {"group": "港澳台", "name": "TVB亚洲武侠", "match": "亞洲武俠"},
+    {"group": "港澳台", "name": "TVB娱乐新闻台", "match": "娛樂新聞台"},
+    {"group": "港澳台", "name": "无线新闻台", "match": "无线新闻"},
+    {"group": "港澳台", "name": "ViuTV", "match": "ViuTV"},
+    {"group": "港澳台", "name": "Now新闻台", "match": "Now新聞台"},
+    {"group": "港澳台", "name": "凤凰中文", "match": "凤凰中文"},
+    {"group": "港澳台", "name": "凤凰资讯", "match": "凤凰资讯"},
+    {"group": "港澳台", "name": "澳视澳门", "match": "澳视澳门"},
+    {"group": "港澳台", "name": "澳门体育", "match": "澳视体育"},
     # 以下为补充提取的港澳台频道
-    {"group": "港澳台", "name": "HOY TV", "match": "HOY TV"}
-    {"group": "港澳台", "name": "HOY资讯台", "match": "HOY资讯台|HOY資訊台"}
-    {"group": "港澳台", "name": "HOY国际财经台", "match": "HOY国际财经台|HOY國際財經台"}
-    {"group": "港澳台", "name": "ViuTVsix", "match": "ViuTVsix"}
-    {"group": "港澳台", "name": "RTHK31", "match": "RTHK31"}
-    {"group": "港澳台", "name": "RTHK32", "match": "RTHK32"}
-    {"group": "港澳台", "name": "CCTV1港澳版", "match": "CCTV1港澳版"}
-    {"group": "港澳台", "name": "澳视卫星", "match": "澳视卫星|澳視衛星"}
-    {"group": "港澳台", "name": "澳门综艺", "match": "澳门综艺|澳門綜藝"}
-    {"group": "港澳台", "name": "澳门莲花", "match": "澳门莲花|澳門蓮花"}
-    {"group": "港澳台", "name": "凤凰香港", "match": "凤凰香港|鳳凰香港"}
-    {"group": "港澳台", "name": "TVB1", "match": "TVB1"}
-    {"group": "港澳台", "name": "TVBJ1", "match": "TVBJ1"}
-    {"group": "港澳台", "name": "华丽翡翠台", "match": "华丽翡翠台|華麗翡翠台"}
-    {"group": "港澳台", "name": "TVB星河", "match": "TVB星河"}
-    {"group": "港澳台", "name": "千禧经典台", "match": "千禧经典台|千禧經典台"}
-    {"group": "港澳台", "name": "黄金华剧台", "match": "黄金华剧台|黃金華劇台"}
+    {"group": "港澳台", "name": "HOY TV", "match": "HOY TV"},
+    {"group": "港澳台", "name": "HOY资讯台", "match": "HOY资讯台"},
+    {"group": "港澳台", "name": "HOY国际财经台", "match": "HOY国际财经台"},
+    {"group": "港澳台", "name": "ViuTVsix", "match": "ViuTVsix"},
+    {"group": "港澳台", "name": "RTHK31", "match": "RTHK31"},
+    {"group": "港澳台", "name": "RTHK32", "match": "RTHK32"},
+    {"group": "港澳台", "name": "CCTV1港澳版", "match": "CCTV1港澳版"},
+    {"group": "港澳台", "name": "澳视卫星", "match": "澳视卫星"},
+    {"group": "港澳台", "name": "澳门综艺", "match": "澳门综艺"},
+    {"group": "港澳台", "name": "澳门莲花", "match": "澳门莲花"},
+    {"group": "港澳台", "name": "凤凰香港", "match": "凤凰香港"},
+    {"group": "港澳台", "name": "TVB1", "match": "TVB1"},
+    {"group": "港澳台", "name": "TVBJ1", "match": "TVBJ1"},
+    {"group": "港澳台", "name": "华丽翡翠台", "match": "华丽翡翠台"},
+    {"group": "港澳台", "name": "TVB星河", "match": "TVB星河"},
+    {"group": "港澳台", "name": "千禧经典台", "match": "千禧经典台"},
+    {"group": "港澳台", "name": "黄金华剧台", "match": "黄金华剧台"},
     
     # -------- 台湾综合/影视 --------
-    {"group": "港澳台", "name": "民视影剧台", "match": "民视影剧台|民視影劇台"}
-    {"group": "港澳台", "name": "公视戏剧", "match": "公视戏剧|公視戲劇"}
-    {"group": "港澳台", "name": "东森电影", "match": "东森电影|東森電影"}
-    {"group": "港澳台", "name": "东森戏剧", "match": "东森戏剧|東森戲劇"}
-    {"group": "港澳台", "name": "东森洋片", "match": "东森洋片|東森洋片"}
-    {"group": "港澳台", "name": "龙祥时代", "match": "龙祥时代|龍祥時代"}
-    {"group": "港澳台", "name": "龙华电影", "match": "龙华电影|龍華電影"}
-    {"group": "港澳台", "name": "龙华经典", "match": "龙华经典|龍華經典"}
-    {"group": "港澳台", "name": "龙华偶像", "match": "龙华偶像|龍華偶像"}
-    {"group": "港澳台", "name": "龙华日韩", "match": "龙华日韩|龍華日韓"}
-    {"group": "港澳台", "name": "龙华戏剧", "match": "龙华戏剧|龍華戲劇"}
-    {"group": "港澳台", "name": "龙华洋片", "match": "龙华洋片|龍華洋片"}
-    {"group": "港澳台", "name": "金光布袋戏", "match": "金光布袋戏|金光布袋戲"}
-    {"group": "港澳台", "name": "纬来电影台", "match": "纬来电影台|緯來電影台"}
-    {"group": "港澳台", "name": "纬来戏剧台", "match": "纬来戏剧台|緯來戲劇台"}
+    {"group": "港澳台", "name": "民视影剧台", "match": "民视影剧台"},
+    {"group": "港澳台", "name": "公视戏剧", "match": "公视戏剧"},
+    {"group": "港澳台", "name": "东森电影", "match": "东森电影"},
+    {"group": "港澳台", "name": "东森戏剧", "match": "东森戏剧"},
+    {"group": "港澳台", "name": "东森洋片", "match": "东森洋片"},
+    {"group": "港澳台", "name": "龙祥时代", "match": "龙祥时代"},
+    {"group": "港澳台", "name": "龙华电影", "match": "龙华电影"},
+    {"group": "港澳台", "name": "龙华经典", "match": "龙华经典"},
+    {"group": "港澳台", "name": "龙华偶像", "match": "龙华偶像"},
+    {"group": "港澳台", "name": "龙华日韩", "match": "龙华日韩"},
+    {"group": "港澳台", "name": "龙华戏剧", "match": "龙华戏剧"},
+    {"group": "港澳台", "name": "龙华洋片", "match": "龙华洋片"},
+    {"group": "港澳台", "name": "金光布袋戏", "match": "金光布袋戏"},
+    {"group": "港澳台", "name": "纬来电影台", "match": "纬来电影台"},
+    {"group": "港澳台", "name": "纬来戏剧台", "match": "纬来戏剧台"},
 
     # -------- 体育台 --------
-    {"group": "体育台", "name": "五星体育", "match": "五星体育|五星體育"}
-    {"group": "体育台", "name": "纬来体育台", "match": "纬来体育台|緯來體育台"}
-    {"group": "体育台", "name": "广东体育", "match": "广东体育|廣東體育"}
-    {"group": "体育台", "name": "Astro AOD", "match": "AOD"}
-    {"group": "体育台", "name": "Bein Sports", "match": "Bein"}
-    {"group": "体育台", "name": "ESPN", "match": "ESPN"}
+    {"group": "体育台", "name": "五星体育", "match": "五星体育"},
+    {"group": "体育台", "name": "纬来体育台", "match": "纬来体育台"},
+    {"group": "体育台", "name": "广东体育", "match": "广东体育"},
+    {"group": "体育台", "name": "Astro AOD", "match": "AOD"},
+    {"group": "体育台", "name": "Bein Sports", "match": "Bein"},
+    {"group": "体育台", "name": "ESPN", "match": "ESPN"},
 
     # -------- CCTV --------
-    {"group": "央视频道", "name": "CCTV1", "match": "CCTV1"}
-    {"group": "央视频道", "name": "CCTV2", "match": "CCTV2"}
-    {"group": "央视频道", "name": "CCTV3", "match": "CCTV3"}
-    {"group": "央视频道", "name": "CCTV4", "match": "CCTV4"}
-    {"group": "央视频道", "name": "CCTV5", "match": "CCTV5"}
-    {"group": "央视频道", "name": "CCTV5+", "match": "CCTV5+"}
-    {"group": "央视频道", "name": "CCTV6", "match": "CCTV6"}
-    {"group": "央视频道", "name": "CCTV7", "match": "CCTV7"}
-    {"group": "央视频道", "name": "CCTV8", "match": "CCTV8"}
-    {"group": "央视频道", "name": "CCTV9", "match": "CCTV9"}
-    {"group": "央视频道", "name": "CCTV10", "match": "CCTV10"}
-    {"group": "央视频道", "name": "CCTV11", "match": "CCTV11"}
-    {"group": "央视频道", "name": "CCTV12", "match": "CCTV12"}
-    {"group": "央视频道", "name": "CCTV13", "match": "CCTV13"}
-    {"group": "央视频道", "name": "CCTV14", "match": "CCTV14"}
-    {"group": "央视频道", "name": "CCTV15", "match": "CCTV15"}
-    {"group": "央视频道", "name": "CCTV16", "match": "CCTV16"}
-    {"group": "央视频道", "name": "CCTV17", "match": "CCTV17"}
-    {"group": "央视频道", "name": "重温经典", "match": "重温经典|重溫經典"}
+    {"group": "央视频道", "name": "CCTV1", "match": "CCTV1"},
+    {"group": "央视频道", "name": "CCTV2", "match": "CCTV2"},
+    {"group": "央视频道", "name": "CCTV3", "match": "CCTV3"},
+    {"group": "央视频道", "name": "CCTV4", "match": "CCTV4"},
+    {"group": "央视频道", "name": "CCTV5", "match": "CCTV5"},
+    {"group": "央视频道", "name": "CCTV5+", "match": "CCTV5+"},
+    {"group": "央视频道", "name": "CCTV6", "match": "CCTV6"},
+    {"group": "央视频道", "name": "CCTV7", "match": "CCTV7"},
+    {"group": "央视频道", "name": "CCTV8", "match": "CCTV8"},
+    {"group": "央视频道", "name": "CCTV9", "match": "CCTV9"},
+    {"group": "央视频道", "name": "CCTV10", "match": "CCTV10"},
+    {"group": "央视频道", "name": "CCTV11", "match": "CCTV11"},
+    {"group": "央视频道", "name": "CCTV12", "match": "CCTV12"},
+    {"group": "央视频道", "name": "CCTV13", "match": "CCTV13"},
+    {"group": "央视频道", "name": "CCTV14", "match": "CCTV14"},
+    {"group": "央视频道", "name": "CCTV15", "match": "CCTV15"},
+    {"group": "央视频道", "name": "CCTV16", "match": "CCTV16"},
+    {"group": "央视频道", "name": "CCTV17", "match": "CCTV17"},
+    {"group": "央视频道", "name": "重温经典", "match": "重温经典"},
 
     # -------- 卫视频道 --------
-    {"group": "卫视频道", "name": "海峡卫视", "match": "海峡卫视|海峽衛視"}
+    {"group": "卫视频道", "name": "海峡卫视", "match": "海峡卫视"},
 
     # -------- 地方频道 --------
-    {"group": "地方频道", "name": "广东珠江", "match": "广东珠江|廣東珠江"}
-    {"group": "地方频道", "name": "广州综合", "match": "广州综合|廣州綜合"}
-    {"group": "地方频道", "name": "广州新闻", "match": "广州新闻|廣州新聞"}
-    {"group": "地方频道", "name": "广州南国都市", "match": "广州南国都市|廣州南國都市"}
+    {"group": "地方频道", "name": "广东珠江", "match": "广东珠江"},
+    {"group": "地方频道", "name": "广州综合", "match": "广州综合"},
+    {"group": "地方频道", "name": "广州新闻", "match": "广州新闻"},
+    {"group": "地方频道", "name": "广州南国都市", "match": "广州南国都市"},
 
     # -------- 海外频道 --------
-    {"group": "海外频道", "name": "八度空间", "match": "八度空间|八度空間"}
-    {"group": "海外频道", "name": "CH5", "match": "CH5"}
-    {"group": "海外频道", "name": "CH8", "match": "CH8"}
-    {"group": "海外频道", "name": "CHU", "match": "CHU"}
-    {"group": "海外频道", "name": "Astro AEC", "match": "Astro AEC"}
-    {"group": "海外频道", "name": "Astro QJ", "match": "Astro QJ"}
-    {"group": "海外频道", "name": "Astro欢喜台", "match": "Astro欢喜台|Astro歡喜台"}
+    {"group": "海外频道", "name": "八度空间", "match": "八度空间"},
+    {"group": "海外频道", "name": "CH5", "match": "CH5"},
+    {"group": "海外频道", "name": "CH8", "match": "CH8"},
+    {"group": "海外频道", "name": "CHU", "match": "CHU"},
+    {"group": "海外频道", "name": "Astro AEC", "match": "Astro AEC"},
+    {"group": "海外频道", "name": "Astro QJ", "match": "Astro QJ"},
+    {"group": "海外频道", "name": "Astro欢喜台", "match": "Astro欢喜台"},
 
     # -------- 影视频道 --------
-    {"group": "影视频道", "name": "采昌影剧台", "match": "采昌影剧台|采昌影劇台"}
-    {"group": "影视频道", "name": "靖天映画", "match": "靖天映画|靖天映畫"}
-    {"group": "影视频道", "name": "靖天戏剧台", "match": "靖天戏剧台|靖天戲劇台"}
-    {"group": "影视频道", "name": "靖天电影台", "match": "靖天电影台|靖天電影台"}
-    {"group": "影视频道", "name": "靖洋戏剧台", "match": "靖洋戏剧台|靖洋戲劇台"}
-    {"group": "影视频道", "name": "影迷数位电影台", "match": "影迷数位电影台|影迷數位電影台"}
-    {"group": "影视频道", "name": "amc电影台", "match": "amc电影台|amc電影台"}
-    {"group": "影视频道", "name": "CinemaWorld", "match": "CinemaWorld"}
-    {"group": "影视频道", "name": "My Cinema Europe", "match": "My Cinema Europe"}
-    {"group": "影视频道", "name": "经典电影台", "match": "经典电影台|經典電影台"}
-    {"group": "影视频道", "name": "天映新加坡", "match": "天映新加坡"}
-    {"group": "影视频道", "name": "天映频道", "match": "天映频道|天映頻道"}
-    {"group": "影视频道", "name": "天映经典", "match": "天映经典|天映經典"}
-    {"group": "影视频道", "name": "爱奇艺", "match": "爱奇艺|愛奇藝"}
-    {"group": "影视频道", "name": "咪咕4K", "match": "咪咕4K"}
+    {"group": "影视频道", "name": "采昌影剧台", "match": "采昌影剧台"},
+    {"group": "影视频道", "name": "靖天映画", "match": "靖天映画"},
+    {"group": "影视频道", "name": "靖天戏剧台", "match": "靖天戏剧台"},
+    {"group": "影视频道", "name": "靖天电影台", "match": "靖天电影台"},
+    {"group": "影视频道", "name": "靖洋戏剧台", "match": "靖洋戏剧台"},
+    {"group": "影视频道", "name": "影迷数位电影台", "match": "影迷数位电影台"},
+    {"group": "影视频道", "name": "amc电影台", "match": "amc电影台"},
+    {"group": "影视频道", "name": "CinemaWorld", "match": "CinemaWorld"},
+    {"group": "影视频道", "name": "My Cinema Europe", "match": "My Cinema Europe"},
+    {"group": "影视频道", "name": "经典电影台", "match": "经典电影台"},
+    {"group": "影视频道", "name": "天映新加坡", "match": "天映新加坡"},
+    {"group": "影视频道", "name": "天映频道", "match": "天映频道"},
+    {"group": "影视频道", "name": "天映经典", "match": "天映经典"},
+    {"group": "影视频道", "name": "爱奇艺", "match": "爱奇艺"},
+    {"group": "影视频道", "name": "咪咕4K", "match": "咪咕4K"},
 
     # -------- 少儿动漫 --------
-    {"group": "少儿动漫", "name": "龙华卡通", "match": "龙华卡通|龍華卡通"}
-    {"group": "少儿动漫", "name": "DreamWorks", "match": "DreamWorks梦工厂动画|DreamWorks夢工廠動畫"}
-    {"group": "少儿动漫", "name": "精选动漫台", "match": "精选动漫台|精選動漫台"}
+    {"group": "少儿动漫", "name": "龙华卡通", "match": "龙华卡通"},
+    {"group": "少儿动漫", "name": "DreamWorks", "match": "DreamWorks梦工厂动画"},
+    {"group": "少儿动漫", "name": "精选动漫台", "match": "精选动漫台"},
 
     # -------- 音乐频道 --------
-    {"group": "音乐频道", "name": "CMusic", "match": "CMusic"}
+    {"group": "音乐频道", "name": "CMusic", "match": "CMusic"},
+]
