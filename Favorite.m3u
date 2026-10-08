@@ -1,7 +1,3 @@
 #EXTM3U x-tvg-url="https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-name="TVB星河" tvg-logo="" group-title="港澳台",TVB星河
-https://cdn3.indevs.in/stream/live/tvbxh/
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="" group-title="央视频道",CCTV1
-https://php.jdshipin.com/TVOD/iptv.php?id=cctv1
-#EXTINF:-1 tvg-name="广州综合" tvg-logo="https://live.fanmingming.cn/tv/广州综合.png" group-title="地方频道",广州综合
-http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
+#EXTINF:-1 tvg-name="凤凰资讯" tvg-logo="" group-title="港澳台",凤凰资讯
+http://173.208.234.146/live/fhzx.m3u8
